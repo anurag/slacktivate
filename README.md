@@ -8,14 +8,15 @@ To get started:
 * `virtualenv -p python3 venv`
 * `source ./venv/bin/activate`
 * `pip install -r requirements.txt`
-* ```
+*    
+    ```
     cat > slacktivate.cfg << EOF
     SLACK_TOKEN = "XXXXXX"
     DROPBOX_ACCESS_TOKEN = "YYYYYY"
     SLACK_DOMAIN = "https://ZZZZZZ.slack.com"
     EOF
-``
-* PORT=5000 SLACKTIVATE_CONFIG=slactivate.cfg `./start.sh`
+    ```
+* `PORT=5000 SLACKTIVATE_CONFIG=slacktivate.cfg ./start.sh`
 
 You may want ngrok or something similar to serve from your local machine and a test Slack community.
 
