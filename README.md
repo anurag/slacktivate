@@ -14,7 +14,7 @@ To get started:
     DROPBOX_ACCESS_TOKEN = "YYYYYY"
     SLACK_DOMAIN = "https://ZZZZZZ.slack.com"
     EOF
-```
+``
 * PORT=5000 SLACKTIVATE_CONFIG=slactivate.cfg `./start.sh`
 
 You may want ngrok or something similar to serve from your local machine and a test Slack community.
