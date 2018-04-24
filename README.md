@@ -22,7 +22,7 @@ You may want ngrok or something similar to serve from your local machine and a t
 
 ## To deploy
 
-This code is already set up to deploy automatically on Render from the `deploy` branch on Github. You should not have
+This code is already set up to deploy automatically on [Render](https://render.com) from the `deploy` branch on Github. You should not have
 to do anything other than push to that branch during normal usage.
 
 However, if you want to re-deploy the bot to a different server or add capabilities, you may have to edit Slack
