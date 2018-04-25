@@ -42,7 +42,7 @@ production Slack bot would be.) To authorize on Slack:
 Users invoke the slactivate bot by adding a :twitter: emoji or a :faq: emoji to a comment in slack.  These are custom emojis that you can add to slack. They are found here: <img src="https://emoji.slack-edge.com/T0DFK9GQY/twitter/a00322c78a4fea78.png" width=20 alt="https://emoji.slack-edge.com/T0DFK9GQY/twitter/a00322c78a4fea78.png"> and here: <img src="https://emoji.slack-edge.com/T0DFK9GQY/faq/8a3b2840c2348d5f.jpg" width=20 alt="https://emoji.slack-edge.com/T0DFK9GQY/faq/8a3b2840c2348d5f.jpg"> and also in this repo's /custom-emoji folder.
 
 <img src="https://emoji.slack-edge.com/T0DFK9GQY/twitter/a00322c78a4fea78.png" width=20 alt="https://emoji.slack-edge.com/T0DFK9GQY/twitter/a00322c78a4fea78.png"> 
-Here's what the twitter emoji does: it creates a draft tweet in a separate slack channel #tweet-drafts.  Then the user can click a button there to have a tweet draft created in twitter in their browser, ready to be edited and tweeted.
+Here's what the twitter emoji does: it creates a draft tweet in a separate slack channel #tweetdrafts.  Then the user can click a button there to have a tweet draft created in twitter in their browser, ready to be edited and tweeted.
 
 <img src="readme-images/IMG_0478.PNG" alt="Adding twitter emoji to a slack comment" width="150">&nbsp;&nbsp;<img src="readme-images/IMG_0479.PNG" alt="Slacktivate shows the twitter suggestion" width="150">&nbsp;&nbsp;<img src="readme-images/IMG_0480.PNG" alt="Slacktivate will compose (not send) a tweet for you" width="150">&nbsp;&nbsp;<img src="readme-images/IMG_0481.PNG" alt="Clicking 'View Source' shows you the channel the suggestion came from (with context)" width="150">
 
